@@ -1,0 +1,24 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description rdf:about="http://example.org/employee/1">
+        <name>John Doe</name>
+        <position>Software Engineer</position>
+        <project>Project Alpha</project>
+        <salary>75000</salary>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/employee/2">
+        <name>Jane Smith</name>
+        <position>Data Scientist</position>
+        <project>Project Beta</project>
+        <salary>85000</salary>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/project/alpha">
+        <name>Project Alpha</name>
+        <budget>500000</budget>
+        <deadline>2024-12-31</deadline>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/project/beta">
+        <name>Project Beta</name>
+        <budget>300000</budget>
+        <deadline>2024-06-30</deadline>
+    </rdf:Description>
+</rdf:RDF>
